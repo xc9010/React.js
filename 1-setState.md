@@ -1,6 +1,8 @@
 ### setState
 
 >setState是一个异步的操作 
+
+> 参考https://www.jianshu.com/p/7ab07f8c954c
 ```
 执行了setState后不会立刻打印出state操作后的值，如果一次性调用多个setState，打印后的结果还会使原来的值
 这就是因为它是异步的，会在所有的同步的代码执行完之后才会执行
